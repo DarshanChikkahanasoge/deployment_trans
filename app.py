@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report
 from flask import Flask,request,jsonify,render_template,url_for
 import os
-data=pd.read_csv('creditcard/transaction1.csv')
+data=pd.read_csv('transaction1.csv')
 
 to_update=data.copy()
 del to_update['TransactionDate']
