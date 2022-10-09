@@ -3,5 +3,4 @@ gunicorn
 numpy 
 scipy
 scikit-learn
-matplotblib
 pandas
